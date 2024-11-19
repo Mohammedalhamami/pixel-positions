@@ -4,8 +4,14 @@ export default {
     theme: {
         extend: {
             colors: {
-                black: "#060606",
+                "black": "#060606",
             },
+            fontFamily: {
+                "hanken-grotesk": ["Hanken Grotesk", "sens-serif"],
+            },
+            fontSize:{
+                "2xs": '10px'
+            }
         },
     },
     plugins: [],
